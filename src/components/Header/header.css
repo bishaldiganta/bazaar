@@ -1,0 +1,22 @@
+.header-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.header-container h1 {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-container p{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 2rem;
+}
+
