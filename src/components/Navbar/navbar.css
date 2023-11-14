@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
+.nav-left ul{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-left li{
+    list-style: none;
+}
+
+.nav-middle{
+    font-weight: bold;
+}
+
+
+
+.nav-right{
+    display: flex;
+    gap: 0.5rem;
+
+}

@@ -1,27 +1,28 @@
 import React from 'react'
+import './navbar.css'
 
 //IMPORTING ICONS
-import { MdOutlineShoppingBag,  } from "react-icons/md";
+import { MdOutlineShoppingBag, MdSearch, MdLogin  } from "react-icons/md";
 
 
-export const Navbar = () => {
+export default function Navbar() {
   return (
-    <nav>
+    <header>
     <div className='nav-left'>
         <ul>
-          <li>Men</li>
-          <li>Woman</li>
-          <li>Kids</li>
-          <li>New & Featured</li>
-          <li>Gift</li>
+        <li>Men</li>
+        <li>Woman</li>
+        <li>Kids</li>
+        <li>New & Featured</li>
+        <li>Gift</li>
         </ul>
     </div>
     <div className="nav-middle">BAZAAR</div>
     <div className="nav-right">
     <MdOutlineShoppingBag />
-      <img src="" alt="" />
-      <p>Login</p>
+    <MdSearch/>
+    <MdLogin/>
     </div>
-    </nav>
+    </header>
   )
 }
